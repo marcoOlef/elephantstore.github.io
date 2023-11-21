@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Checkout</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" >
+  </head>
+  <body>
+
+    <div id="container">
+
+      <div id="header">
+        <!-- header 1 -->
+        <div class="header1">
+          <div
+            class="container d-flex header1-list"
+            style="justify-content: space-between"
+          >
+            <p class="mt-2 fw-light">Welcome to Elephant Store</p>
+            <div class="nav header1-menu">
+              <a
+                class="nav-link active text-black fw-light"
+                aria-current="page"
+                href="shoppingCart.html"
+                >Shopping Cart</a
+              >
+              <a class="nav-link text-black fw-light" href="#"
+                >Customer Service</a
+              >
+              <a class="nav-link text-black fw-light" href="aboutMe.html">About</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- header 2 -->
+        <div class="header2">
+          <div class="header2-list">
+            <nav class="navbar navbar-expand-lg bg-body-secondary">
+              <div class="container">
+                <a class="navbar-brand fw-bold" href="#"
+                  >ELEPHANT <span class="text-warning">STORE</span></a
+                >
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNav"
+                  aria-controls="navbarNav"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse gap-4" id="navbarNav">
+                  <ul class="navbar-nav gap-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Brands</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Specials</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Blogs</a>
+                    </li>
+                  </ul>
+                  <div class="support-account d-flex gap-4">
+                    <div class="support d-flex pt-3 gap-2">
+                      <span>
+                        <img
+                          src="feather icon/headphones.svg"
+                          class="img-fluid img-deal"
+                          alt=""
+                          style="
+                            background-color: white;
+                            padding: 10px;
+                            border-radius: 30px;
+                            box-shadow: 2px 5px 26px -6px rgba(0, 0, 0, 0.28);
+                            -webkit-box-shadow: 2px 5px 26px -6px rgba(0, 0, 0, 0.28);
+                            -moz-box-shadow: 2px 5px 26px -6px rgba(0, 0, 0, 0.28);
+                          "
+                        />
+                      </span>
+                      <span style="font-size: 12px">
+                        <p class="fw-bold">
+                          Support<br /><span class="fw-light"
+                            >+62-8907-7643-9</span
+                          >
+                        </p>
+                      </span>
+                    </div>
+                    <div class="sign-in d-flex pt-3 gap-2">
+                      <span>
+                        <img
+                          src="feather icon/user.svg"
+                          class="img-fluid img-deal"
+                          alt=""
+                          style="
+                            background-color: white;
+                            padding: 10px;
+                            border-radius: 30px;
+                            box-shadow: 2px 5px 26px -6px rgba(0, 0, 0, 0.28);
+                            -webkit-box-shadow: 2px 5px 26px -6px rgba(0, 0, 0, 0.28);
+                            -moz-box-shadow: 2px 5px 26px -6px rgba(0, 0, 0, 0.28);
+                          "
+                        />
+                      </span>
+                      <span style="font-size: 12px">
+                        <p class="fw-bold">
+                          Account<br /><span class="fw-light">sign in</span>
+                        </p>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+
+        <!-- header 3 -->
+        <div class="header3 p-3" style="background-color: #191717">
+          <div class="container">
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-warning" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- header end -->
+  
+
+        <!-- checkout -->
+        <div id="checkout">
+            <div class="container mt-5 mb-5">
+                <div class="d-flex justify-content-between rounded" style="box-shadow: 10px 10px 110px -39px rgba(0,0,0,0.75);
+                -webkit-box-shadow: 10px 10px 110px -39px rgba(0,0,0,0.75);
+                -moz-box-shadow: 10px 10px 110px -39px rgba(0,0,0,0.75); flex-wrap: wrap;">
+                    <div class="form m-5 col-sm-8">
+                      <h2>Checkout</h2>
+                      <p>a checkout is a counter where you pay for things you are buying</p>
+                        <form class="row">
+                            <p>1.Contact Information</p>
+                            <div class="col-md-4">
+                              <label for="validationDefault01" class="form-label">First name</label>
+                              <input type="text" class="form-control" id="validationDefault01" required>
+                            </div>
+                            <div class="col-md-4">
+                              <label for="validationDefault02" class="form-label">Last name</label>
+                              <input type="text" class="form-control" id="validationDefault02" required>
+                            </div>
+                            <div class="col-md-6">
+                              <label for="validationDefault03" class="form-label">Address</label>
+                              <input type="text" class="form-control" id="validationDefault03" required>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="validationDefault05" class="form-label">No. Phone</label>
+                                <input type="text" class="form-control" id="validationDefault05" required>
+                              </div>
+                            <div class="col-12">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                                <label class="form-check-label" for="invalidCheck2">
+                                  Agree to terms and conditions
+                                </label>
+                              </div>
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <p>2.Payment Method</p>
+                            <div class="col-12">
+                                <button class="btn btn-outline-warning" type="button">Dana</button>
+                                <button class="btn btn-outline-warning" type="button">Ovo</button>
+                                <button class="btn btn-outline-warning" type="button">Paypal</button>
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <p>3.Delivery Method</p>
+                            <div class="col-12">
+                                <button class="btn btn-outline-warning" type="button">J&T</button>
+                                <button class="btn btn-outline-warning" type="button">Ninja Express</button>
+                                <button class="btn btn-outline-warning" type="button">Wallet Cur</button>
+                            </div>
+                          </form>
+                    </div>
+                    <div class="struck p-5 col-sm-3" style="border-left: solid #ffc107 0.5px;">
+                      <div class="struck-image text-center mt-4">
+                        <h5 class="text-primary">IPHONE 15 PRO MAX</h5>
+                        <img src="images/shop1.jpg" alt="" style="height: 250px;">
+                      </div>
+                      <br>
+                      <br>
+                      <div class="struck-pay">
+                        <span class="subtotal d-flex justify-content-between">
+                          <p class="text-secondary">Subtotal</p>
+                          <p>$ 170.89</p>
+                        </span>
+                        <span class="Discount d-flex justify-content-between">
+                          <p class="text-secondary">Discount</p>
+                          <p>$ 0</p>
+                        </span>
+                        <span  class="Delivery Service d-flex justify-content-between">
+                          <p class="text-secondary">Delivery Service</p>
+                          <p>$ 59</p>
+                        </span>
+                      </div>
+                      <span  class="total d-flex justify-content-between mt-4">
+                        <h5>Total</h5>
+                        <h3>$ 229.89</h3>
+                      </span>
+                      <div class="button-pay d-grid gap-2 mt-2">
+                        <button class="btn btn-warning">Pay</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- checkout end -->
+
+        <!-- footer  -->
+        <!-- Footer -->
+<footer class="footer text-center bg-secondary p-5">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-4">
+              <h5 class="text-warning">Contact Us</h5>
+              <p>Email: ElephantStore@gmail.com</p>
+              <p>Phone: +62 62-8907-7643-9</p>
+          </div>
+          <div class="col-md-4">
+              <h5>Follow Us</h5>
+              <a href="#" class="text-light">Facebook</a><br>
+              <a href="#" class="text-light">Twitter</a><br>
+              <a href="#" class="text-light">Instagram</a>
+          </div>
+          <div class="col-md-4">
+              <h5 class="text-warning">Search</h5>
+              <form>
+                  <div class="input-group mb-3">
+                      <input type="email" class="form-control" aria-label="Email" aria-describedby="button-addon2">
+                      <button class="btn btn-warning" type="button" id="button-addon2">Search</button>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+  <p class="mt-3">© 2023 Your Company. All rights reserved.</p>
+</footer>
+        <!-- footer end -->
+  
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js" ></script>
+  </body>
+</html>

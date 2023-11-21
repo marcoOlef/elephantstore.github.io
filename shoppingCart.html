@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cart</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" >
+  </head>
+  <body>
+    
+    <div id="container">
+      <div id="header">
+        <!-- header 1 -->
+        <div class="header1">
+          <div
+            class="container d-flex header1-list"
+            style="justify-content: space-between"
+          >
+            <p class="mt-2 fw-light">Welcome to Elephant Store</p>
+            <div class="nav header1-menu">
+              <a
+                class="nav-link active text-black fw-light"
+                aria-current="page"
+                href="shoppingCart.html"
+                >Shopping Cart</a
+              >
+              <a class="nav-link text-black fw-light" href="#"
+                >Customer Service</a
+              >
+              <a class="nav-link text-black fw-light" href="aboutMe.html">About</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- header 2 -->
+        <div class="header2">
+          <div class="header2-list">
+            <nav class="navbar navbar-expand-lg bg-body-secondary">
+              <div class="container">
+                <a class="navbar-brand fw-bold" href="#"
+                  >ELEPHANT <span class="text-warning">STORE</span></a
+                >
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNav"
+                  aria-controls="navbarNav"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse gap-4" id="navbarNav">
+                  <ul class="navbar-nav gap-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Brands</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Specials</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Blogs</a>
+                    </li>
+                  </ul>
+                  <div class="support-account d-flex gap-4">
+                    <div class="support d-flex pt-3 gap-2">
+                      <span>
+                        <img
+                          src="feather icon/headphones.svg"
+                          class="img-fluid img-deal"
+                          alt=""
+                          style="
+                            background-color: white;
+                            padding: 10px;
+                            border-radius: 30px;
+                            box-shadow: 2px 5px 26px -6px rgba(0, 0, 0, 0.28);
+                            -webkit-box-shadow: 2px 5px 26px -6px rgba(0, 0, 0, 0.28);
+                            -moz-box-shadow: 2px 5px 26px -6px rgba(0, 0, 0, 0.28);
+                          "
+                        />
+                      </span>
+                      <span style="font-size: 12px">
+                        <p class="fw-bold">
+                          Support<br /><span class="fw-light"
+                            >+62-8907-7643-9</span
+                          >
+                        </p>
+                      </span>
+                    </div>
+                    <div class="sign-in d-flex pt-3 gap-2">
+                      <span>
+                        <img
+                          src="feather icon/user.svg"
+                          class="img-fluid img-deal"
+                          alt=""
+                          style="
+                            background-color: white;
+                            padding: 10px;
+                            border-radius: 30px;
+                            box-shadow: 2px 5px 26px -6px rgba(0, 0, 0, 0.28);
+                            -webkit-box-shadow: 2px 5px 26px -6px rgba(0, 0, 0, 0.28);
+                            -moz-box-shadow: 2px 5px 26px -6px rgba(0, 0, 0, 0.28);
+                          "
+                        />
+                      </span>
+                      <span style="font-size: 12px">
+                        <p class="fw-bold">
+                          Account<br /><span class="fw-light">sign in</span>
+                        </p>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+
+        <!-- header 3 -->
+        <div class="header3 p-3" style="background-color: #191717">
+          <div class="container">
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-warning" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- header end -->
+
+        <!-- shopping cart -->
+
+        <div id="shoppingCart">
+            <div class="container pt-4 mb-5" >
+            <h3>Shopping Cart Items</h3>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="d-flex justify-content-between">
+                        <p>Items will be removed after 30 days</p>
+                        <div>
+                            <button class="btn btn-danger"><img src="feather icon/trash-2.svg" alt=""> Remove Items</button>
+                        </div>
+                    </div>
+                    <br>
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col"><div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                              </div></th>
+                            <th scope="col">Product</th>
+                            <th scope="col">Color</th>
+                            <th scope="col">Price</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row"><div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                    </label>
+                                  </div></th>
+                                <td><div class="product d-flex gap-3">
+                                    <img src="images/shop2.jpg" style="height: 80px;" alt="">
+                                    <span>
+                                        <p class="text-primary fw-bold">ASUS VIVOBOOK 15</p>
+                                        <p class="text-secondary">1 Week Ago</p>
+                                    </span>
+                                </div></td>
+                                <td>Metal</td>
+                                <td>$ 399.89</td>
+                              </tr>
+                              <tr>
+                                <th scope="row"><div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                    </label>
+                                  </div></th>
+                                <td><div class="product d-flex gap-3">
+                                    <img src="images/shop1.jpg" style="height: 80px;" alt="">
+                                    <span>
+                                        <p class="text-primary fw-bold">IPHONE 15 PRO MAX</p>
+                                        <p class="text-secondary">1 Week Ago</p>
+                                    </span>
+                                </div></td>
+                                <td>Black Titanium</td>
+                                <td>$ 170.89</td>
+                              </tr>
+                              <tr>
+                                <th scope="row"><div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                    </label>
+                                  </div></th>
+                                <td><div class="product d-flex gap-3">
+                                    <img src="images/shop3.jpg" style="height: 80px;" alt="">
+                                    <span>
+                                        <p class="text-primary fw-bold">CAMERA SONY A7MARK III</p>
+                                        <p class="text-secondary">1 Week Ago</p>
+                                    </span>
+                                </div></td>
+                                <td>Black</td>
+                                <td>$ 888.99</td>
+                              </tr>
+                              <tr>
+                                <th scope="row"><div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                    </label>
+                                  </div></th>
+                                <td><div class="product d-flex gap-3">
+                                    <img src="images/shop4.jpg" style="height: 80px;" alt="">
+                                    <span>
+                                        <p class="text-primary fw-bold">XIAOMI MONITOR 24</p>
+                                        <p class="text-secondary">1 Week Ago</p>
+                                    </span>
+                                </div></td>
+                                <td>Black</td>
+                                <td>$ 710.89</td>
+                              </tr>
+                              <tr>
+                                <th scope="row"><div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                    </label>
+                                  </div></th>
+                                <td><div class="product d-flex gap-3">
+                                    <img src="images/shop5.jpg" style="height: 80px;" alt="">
+                                    <span>
+                                        <p class="text-primary fw-bold">KULKAS 2 PINTU OKE</p>
+                                        <p class="text-secondary">1 Week Ago</p>
+                                    </span>
+                                </div></td>
+                                <td>Metal</td>
+                                <td>$ 400.00</td>
+                              </tr>
+                        </tbody>
+                      </table>
+                </div>  
+                <div class="col-sm-4">
+                    <div class="p-3 rounded" style="background-color: rgba(185, 185, 185, 0.28);">
+                        <h5>Summary</h5>
+                        <hr>
+                        <span>
+                            <span class="d-flex justify-content-between">
+                                <p>Total Product :</p>
+                                <p>0</p>
+                            </span>
+                        </span>
+                        <hr>
+                        <div class="d-grid gap">
+                            <button class="btn btn-warning">Checkout</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- shopping cart end -->
+
+        <!-- footer  -->
+        <!-- Footer -->
+<footer class="footer text-center bg-secondary p-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5 class="text-warning">Contact Us</h5>
+                <p>Email: ElephantStore@gmail.com</p>
+                <p>Phone: +62 62-8907-7643-9</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Follow Us</h5>
+                <a href="#" class="text-light">Facebook</a><br>
+                <a href="#" class="text-light">Twitter</a><br>
+                <a href="#" class="text-light">Instagram</a>
+            </div>
+            <div class="col-md-4">
+                <h5 class="text-warning">Search</h5>
+                <form>
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" aria-label="Email" aria-describedby="button-addon2">
+                        <button class="btn btn-warning" type="button" id="button-addon2">Search</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <p class="mt-3">© 2023 Your Company. All rights reserved.</p>
+  </footer>
+          <!-- footer end -->
+  
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js" ></script>
+  </body>
+</html>

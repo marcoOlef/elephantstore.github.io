@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <!-- header 1 -->
+        <div class="header1">
+          <div
+            class="container d-flex header1-list"
+            style="justify-content: space-between"
+          >
+            <p class="mt-2 fw-light">Welcome to Elephant Store</p>
+            <div class="nav header1-menu">
+              <a
+                class="nav-link active text-black fw-light"
+                aria-current="page"
+                href="shoppingCart.html"
+                >Shopping Cart</a
+              >
+              <a class="nav-link text-black fw-light" href="#"
+                >Customer Service</a
+              >
+              <a class="nav-link text-black fw-light" href="aboutMe.html">About</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- header 2 -->
+        <div class="header2">
+          <div class="header2-list">
+            <nav class="navbar navbar-expand-lg bg-body-secondary">
+              <div class="container">
+                <a class="navbar-brand fw-bold" href="#"
+                  >ELEPHANT <span class="text-warning">STORE</span></a
+                >
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNav"
+                  aria-controls="navbarNav"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse gap-4" id="navbarNav">
+                  <ul class="navbar-nav gap-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Brands</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Specials</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Blogs</a>
+                    </li>
+                  </ul>
+                  <div class="support-account d-flex gap-4">
+                    <div class="support d-flex pt-3 gap-2">
+                      <span>
+                        <img
+                          src="feather icon/headphones.svg"
+                          class="img-fluid img-deal"
+                          alt=""
+                          style="
+                            background-color: white;
+                            padding: 10px;
+                            border-radius: 30px;
+                            box-shadow: 2px 5px 26px -6px rgba(0, 0, 0, 0.28);
+                            -webkit-box-shadow: 2px 5px 26px -6px rgba(0, 0, 0, 0.28);
+                            -moz-box-shadow: 2px 5px 26px -6px rgba(0, 0, 0, 0.28);
+                          "
+                        />
+                      </span>
+                      <span style="font-size: 12px">
+                        <p class="fw-bold">
+                          Support<br /><span class="fw-light"
+                            >+62-8907-7643-9</span
+                          >
+                        </p>
+                      </span>
+                    </div>
+                    <div class="sign-in d-flex pt-3 gap-2">
+                      <span>
+                        <img
+                          src="feather icon/user.svg"
+                          class="img-fluid img-deal"
+                          alt=""
+                          style="
+                            background-color: white;
+                            padding: 10px;
+                            border-radius: 30px;
+                            box-shadow: 2px 5px 26px -6px rgba(0, 0, 0, 0.28);
+                            -webkit-box-shadow: 2px 5px 26px -6px rgba(0, 0, 0, 0.28);
+                            -moz-box-shadow: 2px 5px 26px -6px rgba(0, 0, 0, 0.28);
+                          "
+                        />
+                      </span>
+                      <span style="font-size: 12px">
+                        <p class="fw-bold">
+                          Account<br /><span class="fw-light">sign in</span>
+                        </p>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+
+        <!-- header 3 -->
+        <div class="header3 p-3" style="background-color: #191717">
+          <div class="container">
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-warning" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- header end -->
+
+      <!-- intro -->
+      <div id="intro">
+        <div
+          id="carouselExampleControlsNoTouching"
+          class="carousel slide"
+          data-bs-touch="false"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/intro1.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="images/intro2.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="images/intro3.jpg" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!-- intro end -->
+      <br />
+      <br />
+      <br />
+      <!-- Categories -->
+      <div id="categories">
+        <div
+          class="container d-flex categories-list text-center"
+          style="flex-wrap: wrap; gap: 30px"
+        >
+          <div
+            class="card-categories d-flex gap-3 mb-2"
+            style="height: 150px; width: 300px"
+          >
+            <img src="images/category1.jpg" style="height: 150px" alt="" />
+            <span class="mt-5">
+              <p class="fw-bold">Handphones</p>
+              <p>Shop Now</p>
+            </span>
+          </div>
+          <div
+            class="card-categories d-flex gap-3 mb-2"
+            style="height: 150px; width: 300px"
+          >
+            <img src="images/category2.jpg" style="height: 150px" alt="" />
+            <span class="mt-5">
+              <p class="fw-bold">Laptop</p>
+              <p>Shop Now</p>
+            </span>
+          </div>
+          <div
+            class="card-categories d-flex gap-3 mb-2"
+            style="height: 150px; width: 300px"
+          >
+            <img src="images/category3.jpg" style="height: 150px" alt="" />
+            <span class="mt-5">
+              <p class="fw-bold">Camera</p>
+              <p>Shop Now</p>
+            </span>
+          </div>
+          <div
+            class="card-categories d-flex gap-3 mb-2"
+            style="height: 150px; width: 300px"
+          >
+            <img src="images/category4.jpg" style="height: 150px" alt="" />
+            <span class="mt-5">
+              <p class="fw-bold">Accecories</p>
+              <p>Shop Now</p>
+            </span>
+          </div>
+          <div
+            class="card-categories d-flex gap-3 mb-2"
+            style="height: 150px; width: 300px"
+          >
+            <img src="images/category5.jpg" style="height: 150px" alt="" />
+            <span class="mt-5">
+              <p class="fw-bold">Accecories Smart</p>
+              <p>Shop Now</p>
+            </span>
+          </div>
+          <div
+            class="card-categories d-flex gap-3 mb-2"
+            style="height: 150px; width: 300px"
+          >
+            <img src="images/category6.jpg" style="height: 150px" alt="" />
+            <span class="mt-5">
+              <p class="fw-bold">Television</p>
+              <p>Shop Now</p>
+            </span>
+          </div>
+          <div
+            class="card-categories d-flex gap-3 mb-2"
+            style="height: 150px; width: 300px"
+          >
+            <img src="images/category7.jpg" style="height: 150px" alt="" />
+            <span class="mt-5">
+              <p class="fw-bold">Sound System</p>
+              <p>Shop Now</p>
+            </span>
+          </div>
+          <div
+            class="card-categories d-flex gap-3 mb-2"
+            style="height: 150px; width: 300px"
+          >
+            <img src="images/category8.jpg" style="height: 150px" alt="" />
+            <span class="mt-5">
+              <p class="fw-bold">Headphones</p>
+              <p>Shop Now</p>
+            </span>
+          </div>
+        </div>
+      </div>
+      <!-- Categories end -->
+      <br />
+      <br />
+      <!-- Popular -->
+      <div id="popular">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <img
+                src="images/promo.jpg"
+                class="img-fluid img-deal rounded"
+                alt=""
+              />
+            </div>
+            <div class="col-6">
+              <img
+                src="images/promo2.jpg"
+                class="img-fluid img-deal rounded"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Popular end -->
+      <br />
+      <br />
+      <!-- Deal of the day -->
+      <div id="Deal-Of-The-Day">
+        <div class="container">
+          <div
+            class="deal-of-the-day-header"
+            style="border-bottom: solid 1px #ffc107"
+          >
+            <div class="d-flex gap-2 text-center">
+              <img src="feather icon/plus-square.svg" alt="" />
+              <h5 class="mt-2">Deal Of The Day</h5>
+            </div>
+          </div>
+          <div class="d-flex gap-2" style="flex-wrap: wrap">
+            <div
+              class="card-deal-of-the-day pe-5 p-2 mt-4"
+              style="
+                border-left: rgb(223, 223, 223) solid 0.5px;
+                border-right: rgb(223, 223, 223) solid 0.5px;
+              "
+            >
+              <p class="text-primary">IPHONE 15 PRO MAX</p>
+              <img
+                src="images/shop1.jpg"
+                class="img-fluid img-deal"
+                style="height: 150px; width: 150px"
+                alt=""
+              />
+              <div>
+                <span class="d-flex">
+                  <img src="feather icon/star.svg" alt="" />
+                  <img src="feather icon/star.svg" alt="" />
+                  <img src="feather icon/star.svg" alt="" />
+                  <img src="feather icon/star.svg" alt="" />
+                  <img src="feather icon/star.svg" alt="" />
+                  <p class="fw-light" style="font-size: 10px">5.0</p>
+                </span>
+                <span class="d-flex gap-2"
+                  ><p class="fw-bold">$170.89</p>
+                  <p class="fw-light" style="font-size: 13px">
+                    115 Sale Out
+                  </p></span
+                >
+                <button class="btn btn-warning text-white shop">Add To Shop</button>
+              </div>
+            </div>
+            <div
+              class="card-deal-of-the-day pe-5 p-2 mt-4"
+              style="
+                border-left: rgb(223, 223, 223) solid 0.5px;
+                border-right: rgb(223, 223, 223) solid 0.5px;
+              "
+            >
+              <p class="text-primary">ASUS VIVOBOOK 15</p>
+              <img
+                src="images/shop2.jpg"
+                class="img-fluid img-deal"
+                style="height: 150px; width: 150px"
+                alt=""
+              />
+              <div>
+                <span class="d-flex">
+                  <img src="feather icon/star.svg" alt="" />
+                  <img src="feather icon/star.svg" alt="" />
+                  <img src="feather icon/star.svg" alt="" />
+                  <img src="feather icon/star.svg" alt="" />
+                  <img src="feather icon/star.svg" alt="" />
+                  <p class="fw-light" style="font-size: 10px">5.0</p>
+                </span>
+                <span class="d-flex gap-2"
+                  ><p class="fw-bold">$399.89</p>
+                  <p class="fw-light" style="font-size: 13px">
+                    1002 Sale Out
+                  </p></span
+                >
+                <button class="btn btn-warning text-white">Add To Shop</button>
+              </div>
+            </div>
+            <div
+              class="card-deal-of-the-day pe-5 p-2 mt-4"
+              style="
+                border-left: rgb(223, 223, 223) solid 0.5px;
+                border-right: rgb(223, 223, 223) solid 0.5px;
+              "
+            >
+              <p class="text-primary">CAMERA SONY a7...</p>
+              <img
+                src="images/shop3.jpg"
+                class="img-fluid img-deal"
+                style="height: 150px; width: 150px"
+                alt=""
+              />
+              <div>
+                <span class="d-flex">
+                  <img src="feather icon/star.svg" alt="" />
+                  <img src="feather icon/star.svg" alt="" />
+                  <img src="feather icon/star.svg" alt="" />
+                  <img src="feather icon/star.svg" alt="" />
+                  <img src="feather icon/star.svg" alt="" />
+                  <p class="fw-light" style="font-size: 10px">5.0</p>
+                </span>
+                <span class="d-flex gap-2"
+                  ><p class="fw-bold">$888.99</p>
+                  <p class="fw-light" style="font-size: 13px">
+                    200 Sale Out
+                  </p></span
+                >
+                <button class="btn btn-warning text-white">Add To Shop</button>
+              </div>
+            </div>
+            <div
+              class="card-deal-of-the-day pe-5 p-2 mt-4"
+              style="
+                border-left: rgb(223, 223, 223) solid 0.5px;
+                border-right: rgb(223, 223, 223) solid 0.5px;
+              "
+            >
+              <p class="text-primary">XIAOMI MONITOR 24</p>
+              <img
+                src="images/shop4.jpg"
+                class="img-fluid img-deal"
+                style="height: 150px; width: 150px"
+                alt=""
+              />
+              <div>
+                <span class="d-flex">
+                  <img src="feather icon/star.svg" alt="" />
+                  <img src="feather icon/star.svg" alt="" />
+                  <img src="feather icon/star.svg" alt="" />
+                  <img src="feather icon/star.svg" alt="" />
+                  <img src="feather icon/star.svg" alt="" />
+                  <p class="fw-light" style="font-size: 10px">5.0</p>
+                </span>
+                <span class="d-flex gap-2"
+                  ><p class="fw-bold">$710.89</p>
+                  <p class="fw-light" style="font-size: 13px">
+                    243 Sale Out
+                  </p></span
+                >
+                <button class="btn btn-warning text-white">Add To Shop</button>
+              </div>
+            </div>
+            <div
+              class="card-deal-of-the-day pe-5 p-2 mt-4"
+              style="
+                border-left: rgb(223, 223, 223) solid 0.5px;
+                border-right: rgb(223, 223, 223) solid 0.5px;
+              "
+            >
+              <p class="text-primary">KULKAS 2 PINTU OKE</p>
+              <img
+                src="images/shop5.jpg"
+                class="img-fluid img-deal"
+                style="height: 150px; width: 150px"
+                alt=""
+              />
+              <div>
+                <span class="d-flex">
+                  <img src="feather icon/star.svg" alt="" />
+                  <img src="feather icon/star.svg" alt="" />
+                  <img src="feather icon/star.svg" alt="" />
+                  <img src="feather icon/star.svg" alt="" />
+                  <img src="feather icon/star.svg" alt="" />
+                  <p class="fw-light" style="font-size: 10px">5.0</p>
+                </span>
+                <span class="d-flex gap-2"
+                  ><p class="fw-bold">$400.00</p>
+                  <p class="fw-light" style="font-size: 13px">
+                    57 Sale Out
+                  </p></span
+                >
+                <button class="btn btn-warning text-white">Add To Shop</button>
+              </div>
+            </div>
+            <div
+              class="card-deal-of-the-day pe-5 p-2 mt-4"
+              style="
+                border-left: rgb(223, 223, 223) solid 0.5px;
+                border-right: rgb(223, 223, 223) solid 0.5px;
+              "
+            >
+              <p class="text-primary">MACBOOK AIR M2</p>
+              <img
+                src="images/shop6.jpg"
+                class="img-fluid img-deal"
+                style="height: 150px; width: 150px"
+                alt=""
+              />
+              <div>
+                <span class="d-flex">
+                  <img src="feather icon/star.svg" alt="" />
+                  <img src="feather icon/star.svg" alt="" />
+                  <img src="feather icon/star.svg" alt="" />
+                  <img src="feather icon/star.svg" alt="" />
+                  <img src="feather icon/star.svg" alt="" />
+                  <p class="fw-light" style="font-size: 10px">5.0</p>
+                </span>
+                <span class="d-flex gap-2"
+                  ><p class="fw-bold">$370.99</p>
+                  <p class="fw-light" style="font-size: 13px">
+                    980 Sale Out
+                  </p></span
+                >
+                <button class="btn btn-warning text-white">Add To Shop</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Deal of the day end -->
+      <br />
+      <br />
+      <!-- iklan -->
+      <div id="iklan">
+        <div class="container">
+          <img src="images/iklan1.jpg" class="img-fluid rounded" alt="..." />
+        </div>
+      </div>
+      <!-- iklan end-->
+      <br />
+      <!-- footer -->
+      <footer class="footer text-center bg-secondary p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5 class="text-warning">Contact Us</h5>
+                    <p>Email: ElephantStore@gmail.com</p>
+                    <p>Phone: +62 62-8907-7643-9</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <a href="#" class="text-light">Facebook</a><br>
+                    <a href="#" class="text-light">Twitter</a><br>
+                    <a href="#" class="text-light">Instagram</a>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-warning">Search</h5>
+                    <form>
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" aria-label="Email" aria-describedby="button-addon2">
+                            <button class="btn btn-warning" type="button" id="button-addon2">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <p class="mt-3">© 2023 Your Company. All rights reserved.</p>
+      </footer>
+      <!-- footer end -->
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- script Style Manual -->
+    <script src="style/script.js"></script>
+  </body>
+</html>
